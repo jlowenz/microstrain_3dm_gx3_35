@@ -16,3 +16,4 @@
 * `"com_port"`: default "", (custom serial port, default scans /dev/ttyACM*)
 * `"rate"`: default "low", ("high"=1000hz, "medium"=500hz, "low"=100hz)
 * `"init"`: default "yes", (do initialization, such as settiing data format etc)
+* `"frame_id"`: default "imu", (configure the frame\_id for the sensors\_msgs/IMU message)
