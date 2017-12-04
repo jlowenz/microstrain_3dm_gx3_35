@@ -85,14 +85,14 @@ char Set_AHRS_Message_Format[] = {
     static_cast<char> (0x03),                //Desc. count--
     static_cast<char> (SCALED_ACC_VECTOR),   //1st Desc. (Acc)--
     static_cast<char> (0x00),                //Rate dec h
-    static_cast<char> (AHRS_DATA_RATE(100)), //Rate dec l (100Hz)--
+    static_cast<char> (AHRS_DATA_RATE(DATA_RATE_DEFAULT)), //Rate dec l (100Hz)--
     static_cast<char> (SCALED_GYRO_VECTOR),  //2nd Desc. (Gyro)--
     static_cast<char> (0x00),                //Rate dec h
-    static_cast<char> (AHRS_DATA_RATE(100)), //Rate dec l (100Hz)--
+    static_cast<char> (AHRS_DATA_RATE(DATA_RATE_DEFAULT)), //Rate dec l (100Hz)--
     static_cast<char> (INTERNAL_TIME_STAMP), //3rd Desc. (Timestamp)--
     //static_cast<char> (QUATERNION),          //3rd Desc. (Quaternion)--
     static_cast<char> (0x00),                //Rate dec h
-    static_cast<char> (AHRS_DATA_RATE(100)), //Rate dec l (100Hz)--
+    static_cast<char> (AHRS_DATA_RATE(DATA_RATE_DEFAULT)), //Rate dec l (100Hz)--
     'x'
 };
 

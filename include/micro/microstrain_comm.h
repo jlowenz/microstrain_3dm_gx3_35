@@ -136,7 +136,9 @@
 // Data Rate
 #define DATA_RATE_HIGH    1000
 #define DATA_RATE_MED     500
-#define DATA_RATE_DEFAULT 100
+#define DATA_RATE_MED_LOW 200
+#define DATA_RATE_LOW     100
+#define DATA_RATE_DEFAULT DATA_RATE_MED_LOW
 
 #define AHRS_DATA_RATE(x) (1000 / x)
 #define GPS_DATA_RATE(x)  (4 / x)
